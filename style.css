@@ -1,0 +1,370 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+   font-size: 62.5% ;
+}
+body{
+    background-image: url("WhatsApp Image 2024-08-09 at 00.54.35_7401ee6e.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  
+}
+#navbar{
+    background-color: #fff9ffa2;
+    padding: 5px;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+   
+}
+.container-fluid{
+   display: flex;
+    /* margin: auto; */
+}
+
+#ul-list{
+    display: flex;
+    list-style: none;
+position: absolute;
+left: 5%;
+}
+ li{
+    position:relative;
+    font-size: 4rem;
+    cursor: pointer;
+    color: rgb(18, 20, 124);
+    font-weight: bolder;
+    /* margin: 10px; */
+    padding: 5px;
+    transition: background-color 0.3s ease-in-out;
+word-wrap: wrap;
+}
+.contact{
+   text-decoration: none;
+    position:fixed;
+    left: 70%;
+    font-size: 3rem;
+    color: rgb(73, 80, 80);
+top: 1%;
+
+}
+.banner-text{
+    margin: 100px auto;
+ background-image: linear-gradient(rgba(3, 2, 49, 0.5),rgb(7, 31, 58));
+    width: 35vw;
+    height: 65vh;
+    color: white;
+    border-radius: 90%;
+   
+}
+h2{
+    text-align: center;
+    padding: 95px;
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* margin-top: 5%; */
+    position: relative;
+    top: 90px;
+    left: 2%;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+}
+.icon{
+/* display: flex; */
+ justify-content: center;
+    margin: 85px auto;
+    width: 20%;
+    cursor: pointer;
+
+}
+.icon a{
+    padding: 5px;
+    text-decoration: none;
+    
+}
+.icon i{
+    margin:30px auto;
+    font-size: 2rem;
+    color: rgb(31, 29, 25);
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+/* body {
+  background: #a49ca8;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 10px;
+  padding: 0;
+} */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 500px;
+}
+
+.swiper-slide img {
+  display:block;
+  width: 100%;
+
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  /* margin-left: auto;
+   margin-right: auto;   */
+  /* margin: 10px; */
+}
+
+.swiper-slide1 {
+  /* text-align: center;
+  font-size: 18px;*/
+  background: #0a0606; 
+  /* height: calc((100% - 30px) / 2) !important; */
+  position: relative;
+
+  /* Center slide text vertically */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.swiper-slide1 img{
+    width: 400px;
+    height: 400px;
+    margin:5px ;
+
+}
+.swiper-slide1 img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#block{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    margin: 1px;
+    justify-content: center;
+  align-items: center;
+  background-color:rgb(211, 13, 13);
+  flex-direction: column;
+  /* flex-direction: row; */
+ /* grid-template-rows: 5; */
+ grid-template-columns: 4;
+}
+/* Form start */
+#about{
+    width: 100%;
+    height: 200vh;
+    display:flex;
+    margin: 10px;
+    background-color: rgba(236, 236, 236, 0.671);
+   
+}
+.container-3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  
+    position: absolute;
+    top: 220%;
+    left: 45%;
+}
+.container-3 h1{
+    font-size: 5rem;
+    color: rgb(18, 20, 124);
+    font-weight: bolder;
+}
+#crd{
+    display: flex;
+    width: 80%;
+margin: 15% auto;
+}
+.col{
+  width: 50%;
+
+}
+.card{
+    border: none;
+    background-color: transparent;
+}
+.card img{
+
+    width: 50%;
+    height: 400px;
+    border-radius: 50%;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+}
+.card-body{
+    border: none;
+    width: 100%;
+}
+.card-body h5{
+text-align: center;
+font-size: 4rem;
+color: rgb(6, 6, 95);
+}
+.card-body p{
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px;
+
+}
+#contact-3{
+width: 100%;
+font-size: 6rem;
+color: rgb(12, 12, 90);
+font-weight: bold;
+
+}
+form{
+    width: 50%;
+    height: 70vh;
+    margin:50px auto;
+    text-align: center;
+    padding: 30px;
+border-radius: 15px;
+    background-color: rgba(236, 236, 236, 0.671);
+}
+form h3{
+    font-size: 2rem;
+    color: rgb(8, 8, 128);
+    font-weight: bold;
+    padding: 20px;
+}
+form  #para1{
+    font-size: 1.5rem;
+    color: rgb(107, 107, 126);
+    margin: 25px;
+}
+.form-group{
+  display: flex;
+margin: 5px;
+}
+.form-group label {
+    width: 100%;
+    font-size: 1rem;
+    margin: 5px;
+}
+.form-group input{
+    height: 5vh;
+    border-radius: 10px;
+
+}
+.form-group textarea{
+    height: 15vh;
+    resize: none;
+    border-radius: 10px;
+
+}
+#btn-4{
+    width: 25%;
+    height: 50px;
+    border-radius: 35px;
+
+    padding: 10px 20px;
+    background-color: rgb(15, 17, 56);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#maps{
+    display:flex;
+    width: 100vw;
+   
+}
+
+#foot{
+    width: 100%;
+}
+#foot a i{
+    color: rgb(240, 130, 4);
+    font-size: 4rem;
+    margin: 20px;
+    background-color: rgb(8, 8, 8);
+width: 95%;
+height: 100%;
+border-radius: 15px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(158, 143, 143);
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(94, 84, 84);
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.head2 h6{
+    font-size: 2rem;
+    color: rgb(134, 127, 127);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.col5 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.col5 h3{
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(9, 10, 65);
+} 
+.col5 h6{
+    font-size: 3rem;
+    color: rgb(134, 127, 127);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+}
+.col5 h4{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(4, 7, 61);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+}
+.col5 ul{
+    list-style: none;
+}
+.col5 li{
+    font-size: 2rem;
+    font-weight: bold;
+}
